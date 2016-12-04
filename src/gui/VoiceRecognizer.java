@@ -99,7 +99,7 @@ public class VoiceRecognizer extends javax.swing.JFrame {
                 jLabel1.setText(resultText + '\n');
                 jLabel1.paintImmediately(jLabel1.getVisibleRect());
                 if(resultText.equals("excel")){
-                    jLabel2.setIcon(new ImageIcon("C:\\Users\\Róbert\\Desktop\\VoiceRecognizer\\VoiceRecognizer\\src\\gui\\excel.png") );
+                    jLabel2.setIcon(new ImageIcon(".\\src\\gui\\excel.png") );
                     jLabel2.paintImmediately(jLabel2.getVisibleRect());                    
                     try {            
                         Runtime.getRuntime().exec("rundll32 url.dll,FileProtocolHandler " + "C:\\Program Files\\Microsoft Office\\root\\Office16\\EXCEL.exe");
@@ -108,7 +108,7 @@ public class VoiceRecognizer extends javax.swing.JFrame {
                     }                
                 }
                 if(resultText.equals("word")){
-                    jLabel2.setIcon(new ImageIcon("C:\\Users\\Róbert\\Desktop\\VoiceRecognizer\\VoiceRecognizer\\src\\gui\\word.png") );
+                    jLabel2.setIcon(new ImageIcon(".\\src\\gui\\word.png") );
                     jLabel2.paintImmediately(jLabel2.getVisibleRect());
                     try {            
                         Runtime.getRuntime().exec("rundll32 url.dll,FileProtocolHandler " + "C:\\Program Files\\Microsoft Office\\root\\Office16\\WINWORD.exe");
@@ -117,7 +117,7 @@ public class VoiceRecognizer extends javax.swing.JFrame {
                     }                
                 }
                 if(resultText.equals("internet")){
-                    jLabel2.setIcon(new ImageIcon("C:\\Users\\Róbert\\Desktop\\VoiceRecognizer\\VoiceRecognizer\\src\\gui\\firefox.png") );
+                    jLabel2.setIcon(new ImageIcon(".\\src\\gui\\firefox.png") );
                     jLabel2.paintImmediately(jLabel2.getVisibleRect());
                     try {            
                         Runtime.getRuntime().exec("rundll32 url.dll,FileProtocolHandler " + "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe");
