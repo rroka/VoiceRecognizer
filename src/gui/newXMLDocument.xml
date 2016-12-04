@@ -77,7 +77,7 @@
         <property name="dictionary" value="dictionary"/>
         <property name="grammarLocation"
              value="resource:/gui/"/>
-        <property name="grammarName" value="hello"/>
+        <property name="grammarName" value="szavak"/>
  <property name="logMath" value="logMath"/>
     </component>
 
